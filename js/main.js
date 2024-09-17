@@ -99,20 +99,6 @@ function swiperCode() {
 
 
 
-
-
-
-var Scrollbar = window.Scrollbar;
-
-var options = {
-  damping: 0.01
-}
-
-Scrollbar.init(document.querySelector('#my-scrollbar'), options);
-
-
-
-
 const lenis = new Lenis();
 
 function raf(time) {
